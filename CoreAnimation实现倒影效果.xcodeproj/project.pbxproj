@@ -15,6 +15,8 @@
 		A0ADCBD01D644E68002E5A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ADCBCE1D644E68002E5A9C /* LaunchScreen.storyboard */; };
 		A0ADCBDB1D644E68002E5A9C /* CoreAnimation______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADCBDA1D644E68002E5A9C /* CoreAnimation______Tests.m */; };
 		A0ADCBE61D644E68002E5A9C /* CoreAnimation______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADCBE51D644E68002E5A9C /* CoreAnimation______UITests.m */; };
+		A0ADCBF51D644EBD002E5A9C /* CoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADCBF41D644EBD002E5A9C /* CoreView.m */; };
+		A0ADCBF71D644EEF002E5A9C /* 屏幕快照 2016-08-17 下午12.00.42.png in Resources */ = {isa = PBXBuildFile; fileRef = A0ADCBF61D644EEF002E5A9C /* 屏幕快照 2016-08-17 下午12.00.42.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A0ADCBE11D644E68002E5A9C /* CoreAnimation实现倒影效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreAnimation实现倒影效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0ADCBE51D644E68002E5A9C /* CoreAnimation______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CoreAnimation______UITests.m"; sourceTree = "<group>"; };
 		A0ADCBE71D644E68002E5A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0ADCBF31D644EBD002E5A9C /* CoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreView.h; sourceTree = "<group>"; };
+		A0ADCBF41D644EBD002E5A9C /* CoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreView.m; sourceTree = "<group>"; };
+		A0ADCBF61D644EEF002E5A9C /* 屏幕快照 2016-08-17 下午12.00.42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-08-17 下午12.00.42.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		A0ADCBBF1D644E68002E5A9C /* CoreAnimation实现倒影效果 */ = {
 			isa = PBXGroup;
 			children = (
+				A0ADCBF61D644EEF002E5A9C /* 屏幕快照 2016-08-17 下午12.00.42.png */,
 				A0ADCBC31D644E68002E5A9C /* AppDelegate.h */,
 				A0ADCBC41D644E68002E5A9C /* AppDelegate.m */,
 				A0ADCBC61D644E68002E5A9C /* ViewController.h */,
 				A0ADCBC71D644E68002E5A9C /* ViewController.m */,
+				A0ADCBF31D644EBD002E5A9C /* CoreView.h */,
+				A0ADCBF41D644EBD002E5A9C /* CoreView.m */,
 				A0ADCBC91D644E68002E5A9C /* Main.storyboard */,
 				A0ADCBCC1D644E68002E5A9C /* Assets.xcassets */,
 				A0ADCBCE1D644E68002E5A9C /* LaunchScreen.storyboard */,
@@ -248,6 +256,7 @@
 			files = (
 				A0ADCBD01D644E68002E5A9C /* LaunchScreen.storyboard in Resources */,
 				A0ADCBCD1D644E68002E5A9C /* Assets.xcassets in Resources */,
+				A0ADCBF71D644EEF002E5A9C /* 屏幕快照 2016-08-17 下午12.00.42.png in Resources */,
 				A0ADCBCB1D644E68002E5A9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0ADCBC81D644E68002E5A9C /* ViewController.m in Sources */,
+				A0ADCBF51D644EBD002E5A9C /* CoreView.m in Sources */,
 				A0ADCBC51D644E68002E5A9C /* AppDelegate.m in Sources */,
 				A0ADCBC21D644E68002E5A9C /* main.m in Sources */,
 			);
